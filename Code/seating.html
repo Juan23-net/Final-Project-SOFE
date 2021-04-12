@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="seating.css">
+    <title>Seating</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1 style="text-align: center;"> WELCOME PLEASE CHOOSE YOUR SEATS<h1>
+
+    <table class="table">
+<thead>
+  <tr>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td></td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>A</td>
+    <td class = "seats" value = "1A"></td>
+    <td class = "seats" value = "2A"></td>
+    <td class = "seats" value = "3A"></td>
+    <td></td>
+    <td class = "seats" value = "4A"></td>
+    <td class = "seats" value = "5A" style="background-color:red;"></td>
+    <td class = "seats" value = "6A" style="background-color:red;"></td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td class = "seats" value = "1B"></td>
+    <td class = "seats" value = "2B" style="background-color:red;"></td>
+    <td class = "seats" value = "3B"></td>
+    <td></td>
+    <td class = "seats" value = "4B" style="background-color:red;"></td>
+    <td class = "seats" value = "5B" style="background-color:red;"></td>
+    <td class = "seats" value = "6B"></td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td class = "seats" value = "1C"></td>
+    <td class = "seats" value = "2C" style="background-color:red;"></td>
+    <td class = "seats" value = "3C" style="background-color:red;"></td>
+    <td></td>
+    <td class = "seats" value = "4C"></td>
+    <td class = "seats" value = "5C"></td>
+    <td class = "seats" value = "6C"></td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td class = "seats" value = "1D" style="background-color:red;"></td>
+    <td class = "seats" value = "2D"></td>
+    <td class = "seats" value = "3D"></td>
+    <td></td>
+    <td class = "seats" value = "4D"style="background-color:red;"></td>
+    <td class = "seats" value = "5D"></td>
+    <td class = "seats" value = "6D" style="background-color:blue;"></td>
+  </tr>
+</tbody>
+</table>
+
+<form action="process.php" method = "POST">
+  <p>Day: <span id = "day"></span></p>
+  <p>Movie: <span id = "movie"></span></p>
+  <p>Time: <span id = "time"></span></p>
+  <p>Selected Seats: <span id="selectedSeats"></span></p>
+
+  <input type="text" name = "firstName" placeholder="First Name">
+  <input type="text" name = "lastName" placeholder="Last Name">
+  <input type="submit" name="submitBtn" id="submitBtn">
+</form>
+
+
+
+<script type="text/javascript" src="seating.js"></script>
+</body>
+  
+</html>
