@@ -7,7 +7,7 @@ Introduction:
 
 Stakeholders:
 
-•	Facilitator (Shwan) – Typically a senior software engineer or architectural engineer.
+•	Facilitator (Shwan) – Typically a senior software engineer or architectural engineer./n
 •	Software Developer (Juan) – A member of the software development team. These members will work with the software architect to build the software product.
 •	Customer (Mark-imaginary)– Stakeholder that knows the requirements and needs of the software product. Defines overall business requirements. They will also have cost and delivery concerns of a software product.
 •	End User (John-imaginary)- Stakeholder that have concerns about the functionality of the software product as they are end users of the product. They will use the product.
