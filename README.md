@@ -1,7 +1,7 @@
 # Final-Project-SOFE
 Principles of Software and Requirements Engineering Final Project
 
-<b>Introduction:<b>
+<b>Introduction:</b>
 	
 	For this lab, a group of people discussed the needs and business goals of a software application, in which this case is an online movie booking system. The users involved in the meeting are Facilitator, Software Developer, Customer, and End user. The topic is the online movie booking system, where customers can book a seat to a specific movie ahead of time to guarantee a seat for the movie. 
 
